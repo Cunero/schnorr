@@ -16,8 +16,8 @@ on:
   release:
     types: [created]
 
-jobs: actions
-  build: Jorge Bautista 
+jobs: 
+  build:
     runs-on: ubuntu-latest
     outputs:
       digests: ${{ steps.hash.outputs.digests }}
